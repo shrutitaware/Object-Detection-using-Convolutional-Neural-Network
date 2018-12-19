@@ -6,8 +6,9 @@ faced where variety of objects of the same category are widespread and are diffi
 manipulate particular type of object from a pool of dataset. The project therefore, provides a solution to
 interpret the object of particular class and detect it from the set of images.
 
-## Cifar-10
-The model used is a convolutional neural network which after 50 epochs of training gives approximately 85% training accuracy.
+## CIFAR-10
+The model used is a Convolutional Neural Network which after 50 epochs of training gives approximately 85% training accuracy.
+
 <img src="sample/testresult.png">
 
 ## Hardware Requirement : 
@@ -32,8 +33,6 @@ https://colab.research.google.com/notebooks/welcome.ipynb
 <img src="sample/acc_graph.png">
 4) On completely running the file model.py in Google Colab, two files are downloaded- `mytrainedmodel_arch.json` and `mytrainedmodel_weights.h5` which are later used in the file obj_detect.py as inputs.
 5) Here, I have already trained the model and downloaded these files.
-
-
 
 ### Step 2 : Image detection and prediction, GUI
 1) Open Anaconda Prompt(python 3.6) and change the directory to the above project folder using below command.  `cd path-name`

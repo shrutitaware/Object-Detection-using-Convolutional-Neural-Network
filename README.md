@@ -36,7 +36,7 @@ https://colab.research.google.com/notebooks/welcome.ipynb
 
 ## File Functions :
 
-* model.py
+1) model.py:
 Contains code for downloading Cifar10 dataset, training it using Convolutional Neural Network and lastly testing and saving the model. Runned on Google Colab. This file contains the implementation of Convolutional Neural Network. It downloads the Cifar10 dataset from:
 
 http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz

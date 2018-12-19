@@ -32,5 +32,5 @@ Files-
 |---------------------------------------|------------------------------------|----------------------------|
 |<img src="sample/download (8).jpg">    |<img src="sample/plot1.png">        | horse, deer                |
 |<img src="sample/animal-1367182__340.jpg">            |<img src="sample/plot2.png">        | deer, bird                 |
-|<img src="sample/download (8).jpg">           |<img src="sample/plot3.png">        | truck, ship, automobile    |
-|<img src="sample/download (8).jpg">            |<img src="sample/plot4.png">        | frog, bird                 |
+|<img src="sample/airplane.jpg">           |<img src="sample/plot3.png">        | truck, ship, automobile    |
+|<img src="sample/frog.jpg">            |<img src="sample/plot4.png">        | frog, bird                 |

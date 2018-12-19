@@ -1,5 +1,15 @@
 # Object-Detection-using-Convolutional-Neural-Network
 
+The problem that we address is focused on intra-class variation (e.g. being able to
+recognize any member of the “airplane” class or the “automobile” class). Data redundancy is the major problem
+faced where variety of objects of the same category are widespread and are difficult to handle and
+manipulate particular type of object from a pool of dataset. The project therefore, provides a solution to
+interpret the object of particular class and detect it from the set of images.
+
+## Cifar-10
+The model used is a convolutional neural network which after 50 epochs of training gives approximately 85% training accuracy.
+<img src="sample/testresult.png">
+
 ## Hardware Requirement : 
 *	Processor: Intel® Core™ i5 processor 4300M at 2.60 GHz or 2.59 GHz 
 *	Operating System: Windows 10 
@@ -19,8 +29,11 @@
 https://colab.research.google.com/notebooks/welcome.ipynb
 2) Open new notebook and run the code in `model.py` file in different cells.
 3) Cifar10 dataset is downloaded,trained and tested showing training and validation: accuracy and loss graphs
-3) On completely running the file model.py in Google Colab, two files are downloaded- `mytrainedmodel_arch.json` and `mytrainedmodel_weights.h5` which are later used in the file obj_detect.py as inputs.
-4) Here, I have already trained the model and downloaded these files.
+<img src="sample/acc_graph.png">
+4) On completely running the file model.py in Google Colab, two files are downloaded- `mytrainedmodel_arch.json` and `mytrainedmodel_weights.h5` which are later used in the file obj_detect.py as inputs.
+5) Here, I have already trained the model and downloaded these files.
+
+
 
 ### Step 2 : Image detection and prediction, GUI
 1) Open Anaconda Prompt(python 3.6) and change the directory to the above project folder using below command.  `cd path-name`

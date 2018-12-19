@@ -28,8 +28,8 @@ Files-
 	Contains code to predict the output from the read image. Trained model is fed to the system so that new unknown data is trained on it. Consists code for GUI, reading the image and plotting probability chart.
 
 
-| Image                                       | Image Probabilities                | Top results                |
-|---------------------------------------------|------------------------------------|----------------------------|
-|<img src="sample/download (8).jpg">          |<img src="sample/plot1.png">        | horse, deer                |
-|<img src="sample/animal-1367182__340.jpg">   |<img src="sample/plot2.png">        | deer, bird                 |
-|<img src="sample/airplane.jpg">              |<img src="sample/plot3.png">        | truck, ship, automobile    |
+| Image                                       | Image Probabilities                | Top results                                      |
+|---------------------------------------------|------------------------------------|--------------------------------------------------|
+|<img src="sample/download (8).jpg">          |<img src="sample/plot5.png">        | bird, airplane, cat, frog, ship, dog, horse, deer|
+|<img src="sample/animal-1367182__340.jpg">   |<img src="sample/plot6.png">        | deer, horse, dog                                 |
+|<img src="sample/airplane.jpg">              |<img src="sample/plot7.png">        | airplane                                         |
